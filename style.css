@@ -9,20 +9,19 @@ p{
     margin: 0px;
 }
 #DIVaposta{
-    background-color: rgb(164, 191, 192);
+    background-color: rgb(67, 71, 71);
     height: 400px;
     width: 400px;
     margin: auto;
+    margin-top: 10px;
     border-radius: 5px;
     font-size: 1.8em;
     text-align: center;
+    color: white;
 }
 #titulo{
     font-size: 1.4em;
     padding-top: 5%;
-}
-#rs{
-    font-size: 1.5em;
 }
 #txtNum{
     width: 100px;
@@ -32,11 +31,18 @@ p{
     border-radius: 5px;
     margin: 20px 2px 20px 20px;
 }
-#DIVresultado{
+#DIVAvancar{
     margin: auto;
     height: 240px;
     width: 380px;
-    background-color: aliceblue;
+    background-color: rgb(20, 36, 51);
+}
+#botaoAvancar{
+    width: 25%;
+    margin: 5%;
+}
+#numero{
+    width: 20%;
 }
 footer{
     background-color: black;
