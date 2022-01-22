@@ -5,16 +5,20 @@ body{
     margin: 0px;
     padding: 0px;
 }
+p{
+    margin: 0px;
+}
 #DIVaposta{
     background-color: rgb(164, 191, 192);
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     margin: auto;
     border-radius: 5px;
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-align: center;
 }
 #titulo{
+    font-size: 1.4em;
     padding-top: 5%;
 }
 #rs{
@@ -26,15 +30,17 @@ body{
     font-size: 1.2em;
     text-align: center;
     border-radius: 5px;
+    margin: 20px 2px 20px 20px;
 }
 #DIVresultado{
     margin: auto;
-    height: 150px;
-    width: 280px;
+    height: 240px;
+    width: 380px;
     background-color: aliceblue;
 }
 footer{
     background-color: black;
     color: aliceblue;
     text-align: center;
+    margin-top: 10px;
 }
